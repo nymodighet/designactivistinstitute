@@ -79,18 +79,18 @@
                 <div>
                     <form id="signupForm" action="https://formspree.io/f/xkjrvjlg" method="POST" >
                         <label for="name">Name</label>
-                        <input id="name" type="text" placeholder="Your name" autocomplete="name" />
+                        <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" />
 
                         <label for="email">Email</label>
-                        <input id="email" type="email" placeholder="you@example.com" required autocomplete="email" />
+                        <input id="email" name="email" type="email" placeholder="you@example.com" required autocomplete="email" />
 
                         <label for="message">Your message (optional)</label>
-                        <textarea id="message" type="text" placeholder="Drop us a note" autocomplete="message" /></textarea>
+                        <textarea id="message" name="message" placeholder="Drop us a note" autocomplete="message" /></textarea>
 
                         <button type="submit" class="primary-button">Join us</button>
 
                         <div id="formMessage" role="status" aria-live="polite"></div>
-                        <input type="hidden" value="New Institute signup">
+                        <input type="hidden" name="_subject" value="New Institute signup">
                     </form>
                     <p>If you prefer email, you can reach us at <strong>designactivist at protonmail dot com</strong>.</p>
                   </div>
