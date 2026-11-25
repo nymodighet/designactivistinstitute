@@ -727,10 +727,11 @@ form input::placeholder, form textarea::placeholder {
 	footer { padding: 1rem 2rem; }
 	blockquote, .intro { font-size: 1.5rem; }
 	blockquote:first-letter { margin-left: -.5rem; }
+	nav ul li { margin: 0 1rem 0 0; }
 	.tagline { font-size: 1.25rem; }
 	.reading-list li { grid-template-columns: auto; }
 	.logo img { width: 4rem; }
-	.gallery { left: -2rem; width: calc(100% + 7rem); }
+	.gallery { gap: 0; padding: 0 0 2rem 0; left: -2rem; width: calc(100% + 7rem); }
 	.designer { top: 26vh; width: 22vw; }
 	.wizard { top: 1vh; width: 21vw; }
 	.spacewoman { top: -1vh; width: 21vw; }
