@@ -744,7 +744,7 @@ form input::placeholder, form textarea::placeholder {
 /* Motion Reduction */
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
-  html:not(.motion-off) .art img,
-  html:not(.motion-off) .mobile-library img { animation: none; }
+  html .motion-off .art img,
+  html .motion-off .mobile-library img { animation: none; }
   html:not(.motion-off) { scroll-behavior: smooth; }
 }
