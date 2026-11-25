@@ -364,7 +364,7 @@ form input::placeholder, form textarea::placeholder {
 }
 
 #formMessage {
-	font-family: font-family: 'Satoshi Light', sans-serif;
+	font-family: 'Satoshi Light', sans-serif;
 	color: var(--pink);
 	padding: 1rem 0 0 0;
 }
