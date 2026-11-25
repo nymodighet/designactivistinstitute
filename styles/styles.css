@@ -363,6 +363,12 @@ form input::placeholder, form textarea::placeholder {
 	padding-top: .3125rem;
 }
 
+#formMessage {
+	font-family: font-family: 'Satoshi Light', sans-serif;
+	color: var(--pink);
+	padding: 1rem 0 0 0;
+}
+
 .gallery {
   display: flex;
   gap: 1.25rem;
