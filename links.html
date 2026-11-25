@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Design Activist Institute</title>
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta name="description" content="Designers who resist">
+    <meta name="author" content="Design Activist Institute">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name=”robots” content="index, follow">
+
+    <meta property="og:title" content="Design Activist Institute" />
+    <meta property="og:description" content="The Design Activist Institute is a grassroots, autonomous design collective dedicated to creating a better world." />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://designactivistinstitute.org" />
+    <meta property="og:image" content="https://designactivistinstitute.org/sources/images/Design_Activist_Institute.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Design Activist Institute: designers who resist" />
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="canonical" href="https://designactivistinstitute.org">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="sources/actions.js"></script>
+    <script>
+      (function () {
+        var saved = null;
+        try { saved = localStorage.getItem('motion'); } catch (e) {}
+        var off = saved ? saved === 'off'
+                        : matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (off) document.documentElement.classList.add('motion-off');
+      })();
+    </script>
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-ND75CT37"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+</head>
+<body id="top">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header>
+        <a href="#top" class="logo">
+            <img src="sources/images/Design_Activist_Institute.webp" alt="Design Activist Institute">
+        </a>
+        <h1>Design Activist Institute</h1>
+        <h2>Designers who resist</h2>
+    </header>    
+    <main>
+        <article>
+            <section>  
+                <h3>Links</h3>
+                <h5>Design Activist Institute website</h5>
+                <div class="button-wrapper">
+                    <a href="index.html" class="primary-button">Home</a>
+                </div>
+            </section>
+            <section>  
+                <h5>Utopascope</h5>
+                <p>Utopascope is a co-creative, community-led project to “design a better world.” After conversations with dreamers, workers, rebels, and thinkers about their ideal futures, the Institute produced a series of community organizing ideas as a way to return power to the people.</p>
+                <div class="button-wrapper">
+                    <a href="https://utopascope.com/" class="primary-button">Utopascope</a>
+                </div>
+        </article>
+    </main>
+</body>
+</html>

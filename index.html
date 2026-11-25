@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Design Activist Institute</title>
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta name="description" content="The Design Activist Institute is a grassroots, autonomous design collective dedicated to creating a better world">
+    <meta name="author" content="Design Activist Institute">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name=”robots” content="index, follow">
+
+    <meta property="og:title" content="Design Activist Institute" />
+    <meta property="og:description" content="The Design Activist Institute is a grassroots, autonomous design collective dedicated to creating a better world" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://designactivistinstitute.org" />
+    <meta property="og:image" content="https://designactivistinstitute.org/sources/images/Design_Activist_Institute.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Design Activist Institute: designers who resist" />
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="canonical" href="https://designactivistinstitute.org">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="sources/actions.js"></script>
+    <script>
+      (function () {
+        var saved = null;
+        try { saved = localStorage.getItem('motion'); } catch (e) {}
+        var off = saved ? saved === 'off'
+                        : matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (off) document.documentElement.classList.add('motion-off');
+      })();
+    </script>
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-ND75CT37"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+</head>
+<body id="top">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <button type="button" id="motion-toggle" aria-pressed="false" class="pause-button">pause animations</button>
+    <header>
+        <a href="#top" class="logo">
+            <img src="sources/images/Design_Activist_Institute.webp" alt="Design Activist Institute, back to top">
+        </a>
+        <h1>Design Activist Institute</h1>
+        <p class="tagline">Designers who resist</p>
+        <div class="header-images">
+            <img src="sources/images/Illustration_designer_blue.webp" class="designer load-in-top fade-out-top">
+            <img src="sources/images/Illustration_designer_pink.webp" class="designer load-in-top fade-out-top">
+            <img src="sources/images/Illustration_rebel_blue.webp" class="rebel load-in-top fade-out-top">
+            <img src="sources/images/Illustration_rebel_pink.webp" class="rebel load-in-top fade-out-top">
+            <img src="sources/images/Illustration_wizard_blue.webp" class="wizard load-in-top fade-out-top">
+            <img src="sources/images/Illustration_wizard_pink.webp" class="wizard load-in-top fade-out-top">
+            <img src="sources/images/Illustration_revolutionary_blue.webp" class="revolutionary load-in-top fade-out-top">
+            <img src="sources/images/Illustration_revolutionary_pink.webp" class="revolutionary load-in-top fade-out-top">
+            <img src="sources/images/Illustration_spacewoman_blue.webp" class="spacewoman load-in-top fade-out-top">
+            <img src="sources/images/Illustration_spacewoman_pink.webp" class="spacewoman load-in-top fade-out-top">
+            <img src="sources/images/Illustration_anarchist_blue.webp" class="anarchist load-in-top fade-out-top">
+            <img src="sources/images/Illustration_anarchist_pink.webp" class="anarchist load-in-top fade-out-top">
+            <img src="sources/images/Illustration_swordswoman_blue.webp" class="swordswoman load-in-top fade-out-top">
+            <img src="sources/images/Illustration_swordswoman_pink.webp" class="swordswoman load-in-top fade-out-top">
+            <img src="sources/images/Illustration_artist_blue.webp" class="artist load-in-top fade-out-top">
+            <img src="sources/images/Illustration_artist_pink.webp" class="artist load-in-top fade-out-top">
+       </div>
+    </header>
+    <main id="main">
+        <article>
+            <section id="join">  
+                <p class="intro">The Design Activist Institute is a grassroots, autonomous design collective dedicated to creating a better world.</p>
+                <p>The Institute brings horizontal, democratic decision-making and organizing to the world of design, co-creating with and as marginalized people. We are volunteer-based, cooperative, anonymous, and nonhierarchical. The Institute works with other organizers, using strategic design thinking, investigative research, and community engagement to implement design interventions that lead to lasting, palpable change.</p>    
+                <p>Sign up if you are interested in organizing with us!</p>
+                <div>
+                    <form id="signupForm" action="https://formspree.io/f/xkjrvjlg" method="POST" >
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Your name" autocomplete="name" />
+
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="you@example.com" required autocomplete="email" />
+
+                        <label for="message">Your message (optional)</label>
+                        <textarea id="message" type="text" placeholder="Drop us a note" autocomplete="message" /></textarea>
+
+                        <button type="submit" class="primary-button">Join us</button>
+
+                        <div id="formMessage" role="status" aria-live="polite"></div>
+                        <input type="hidden" value="New Institute signup">
+                    </form>
+                    <p>If you prefer email, you can reach us at <strong>designactivist at protonmail dot com</strong>.</p>
+                  </div>
+            </section>
+            <section class="fade-in-bottom" id="projects">
+                <h2>Projects</h2>
+                <p>The Institute is currently engaged in asynchronous storytelling and design projects about peace, and social, and climate justice. Get in touch if you’re interested in collaborating.</p>
+            </section>
+            <div class="gallery">
+                <div class="art">
+                    <img src="sources/images/Work_Utopascope_1.webp" alt="Utopascope Environmental Justice webpage: a beautiful, verdant future" loading="lazy">
+                    <img src="sources/images/Work_HowMight_1.webp" alt="How Might Philly? projection" loading="lazy">
+                    <img src="sources/images/Work_Meadows_pamphlet.webp" alt="Save the Meadows satirical cult pamphlet" loading="lazy">
+                    <img src="sources/images/Work_Dispatch.webp" alt="Dispatch zine cover: Storytelling and art for a better world, October 12, 2017" loading="lazy">
+                    <img src="sources/images/Work_Zine_Collage.webp" alt="Zine collage with protests shouting 'Noting about us without us' erupting from City Hall" loading="lazy">
+                    <img src="sources/images/Work_One-Time-Pads.webp" alt="One Time Pads cryptography workshop cipher chart" loading="lazy">
+                </div>
+                <div class="art">
+                    <img src="sources/images/Work_Juntos_Poster_1.webp" alt="Levanto Mi Lámpara Para Todo El Mundo poster" lang="es" loading="lazy">
+                    <img src="sources/images/Work_Poster_Alligator.webp" alt="A is for Alligator, L is for Lead poster" loading="lazy">
+                    <img src="sources/images/Work_Poster_Boathouse.webp" alt="One Homeless Shelter in Philly turned away 546 youth in 2015, but we have mansions for a fucking boat poster" loading="lazy">
+                    <img src="sources/images/Work_Future_Zine.webp" alt="Speculative zine: 90% of all food consumed in Philadelphia is grown and processed within city limits" loading="lazy">
+                    <img src="sources/images/Work_Antiwar.webp" alt="Against War! graphic - for antiwar protests, the ruling class only fears two acts: the threat of real violence, or a mass general strike" loading="lazy">
+                    <img src="sources/images/Work_Climate_Strike.webp" alt="Climate strike graphic September 20-27 2019" loading="lazy">
+                </div>
+                <div class="art">
+                    <img src="sources/images/Work_Poster_Plastic.webp" alt="No Thank You poster: Philadelphia uses over 688 million plastic bags each year" loading="lazy">
+                    <img src="sources/images/Work_Meadows_2.webp" alt="Meadows proposal graphic" loading="lazy">
+                    <img src="sources/images/Work_Report_1.webp" alt="Designers who resist / Philadelphia annual report cover, collaborative art + design, workshops, special events, mutual liberation, utopian resistance, direct democracy" loading="lazy">
+                    <img src="sources/images/Work_Tandem-Conference.webp" alt="Tandem Conference graphic: Collective power + utopian design workshop" loading="lazy">
+                    <img src="sources/images/Work_Utopascope_2.webp" alt="Utopascope graphic: How can we build better systems that create economic justice for all" loading="lazy">
+                    <img src="sources/images/Work_Report_2.webp" alt="The Ballot and the Pixel Commons-Centered Design process graph, community organizing centered around the define step of design thinking" loading="lazy">
+                </div>
+            </div>
+            <section class="fade-in-bottom">
+                <p>The Institute hosts workshops, events, and resources; designs posters, zines, websites, booklets, flyers, pamphlets, spatial projections, interactive pop-ups, design systems, films, and exhibitions; engages in informational insurgency and détournement; and writes and tells stories about justice in collaborative, group-directed settings. The group organizes for environmental justice, migrant rights, the rights of queer and trans people, restorative justice, feminism, racial justice, equality, fair and equal housing rights, universal health and wellbeing, workers’ rights, and against any form of hate. </p>
+            </section>
+            <section class="fade-in-bottom"> 
+                <h3>Utopascope</h3>
+                <a href="https://utopascope.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="sources/images/Utopascope_1.webp" alt="Utopascope Community Organizing banner" class="scroll" loading="lazy"> 
+                </a>  
+                <p>Utopascope is a co-creative, community-led project to “design a better world.” After conversations with dreamers, workers, rebels, and thinkers about their ideal futures, the Institute produced a series of community organizing ideas as a way to return power to the people.</p>
+                <p>Utopascope explores the ways that stronger communities can build better systems for the future. It seeks new ways to manage, to spend leisure time, to work, and to imagine new common understandings so that old patterns and circumstances that keep us all down can be replaced. The project is categorized between organizing, environmental justice, people power, wellness, and economic liberation. </p>
+                <p>This project involves the community through an exchange of information and ideas, expanding into tangible, organized direct action. We invite you to propose new community organizing practices, suggest changes to existing ones, and to partner with us to create a revolutionary moment.</p>
+                <p>The visions of the worlds presented in this project are ones in which people self-organize around shared interests and needs, all people of the world have clean air and water and have access to mental and physical health services, direct democracy is embedded into daily life, and economies are liberated so that all people may have the freedom to be happy.</p>
+                <div class="button-wrapper">
+                    <a href="https://utopascope.com/" target="_blank" class="primary-button" rel="noopener noreferrer">Utopascope</a>
+                </div>
+            </section>
+            <section class="fade-in-bottom">
+                <h3>Studio Series</h3>
+                <img src="sources/images/Studio_Series.webp" alt="Studio Series" class="scroll" loading="lazy">
+                <p>Up until the start of the pandemic, the Institute aimed to radicalize access to the design industry and design education through  mutual aid, researching new methods of teaching, learning, and radical self-improvement by organizing for justice, liberation, and resistance. </p>
+                <p>The Studio Series was a free, interdisciplinary, co-creative, and autonomous laboratory. The community nominated local issues, and participants — those without formal experience in design as well as professional designers — voted to drive group-determination.</p>
+            </section>
+            <section class="fade-in-bottom">
+                <h3>Commons-Centered Design Framework</h3>
+                <img src="sources/images/Framework.webp" alt="The Ballot and the Pixel Commons-Centered Design" class="scroll" loading="lazy">
+                <p>The Institute developed a framework that combines collective design with community organizing as the highest expression of activism, named “Commons-Centered Design.” This report, titled “The Ballot and the Pixel,” explores how to improve human-centered design frameworks with organizing and activist principles, outlines organizing for direct democracy, and demonstrates how designers fit into mass movements to build collective power for the masses. </p>
+                <p>Read “The Ballot and the Pixel” Commons-Centered Design Framework:</p>
+                <div class="button-wrapper">
+                    <a href="sources/documents/DesignActivistInstitute_Commons-Centered_Design.pdf" target="_blank" class="primary-button" rel="noopener noreferrer">Read the report<span class="visually-hidden">(PDF, opens in a new tab)</span></a>
+                </div>
+            </section>
+            <section class="fade-in-bottom">
+                <h3>Antifascist Design Mobile Library</h3>
+                <div class="mobile-library scroll">
+                    <img src="sources/images/Mobile_Library_1.webp" alt="Mobile Library" loading="lazy">
+                    <img src="sources/images/Mobile_Library_2.webp" alt="Mobile Library" loading="lazy">
+                    <img src="sources/images/Mobile_Library_3.webp" alt="Mobile Library" loading="lazy">
+                    <img src="sources/images/Mobile_Library_4.webp" alt="Mobile Library" loading="lazy">
+                    <img src="sources/images/Mobile_Library_5.webp" alt="Mobile Library" loading="lazy">
+                </div>
+                <p>The Design Activist Institute maintains an antifascist design reading list resource for designers who might be interested in antifascism or antifascists who might be interested in design. </p>
+                <div class="reading-list">
+                    <ul role="list">
+                        <li><cite class="title">“Caps Lock: How Capitalism Took Hold of Graphic Design, and How to Escape from It”</cite> <span class="author"><span class="visually-hidden">by </span>Ruben Pater</span></li>
+                        <li><cite class="title">“The Black Experience in Design: Identity, Expression & Reflection”</cite> <span class="author"><span class="visually-hidden">by </span>Anne H. Berry et. al.</span></li>
+                        <li><cite class="title">“Graphic Events: A Realist Account of Graphic Design”</cite> <span class="author"><span class="visually-hidden">by </span>James Dyer and Nick Deakin</span></li>
+                        <li><cite class="title">“Iron Fist: Branding the 20th Century Totalitarian State”</cite> <span class="author"><span class="visually-hidden">by </span>Stephen Heller</span></li>
+                        <li><cite class="title">“The Politics of Design: A (Not So) Global Design Manual for Visual Communication”</cite> <span class="author"><span class="visually-hidden">by </span>Ruben Pater</span></li>
+                        <li><cite class="title">“The Education of a Graphic Designer, 3rd edition”</cite> <span class="author"><span class="visually-hidden">by </span>Stephen Heller et. al.</span></li>
+                        <li><cite class="title">“Fighting Fascism: How to Struggle and How to Win”</cite> <span class="author"><span class="visually-hidden">by </span>Clara Zetkin</span></li>
+                        <li><cite class="title">“Ecofascism Revisited”</cite> <span class="author"><span class="visually-hidden">by </span>Janet Biehl and Peter Staudemaier</span></li>
+                        <li><cite class="title">“Extra Bold: A Feminist, Inclusive, Anti-racist, Nonbinary Field Guide for Graphic Designers”</cite> <span class="author"><span class="visually-hidden">by </span>Ellen Lupton</span></li>
+                        <li><cite class="title">“The Ku Klux Klan in the City: 1915-1930”</cite> <span class="author"><span class="visually-hidden">by </span>Kenneth T. Jackson</span></li>
+                        <li><cite class="title">“Growing Without Schooling”</cite> <span class="author"><span class="visually-hidden">by </span>John Holt</span></li>
+                        <li><cite class="title">“The Philosophy Book: Big Ideas Simply Explained”</cite> <span class="author"><span class="visually-hidden">by </span>Will Buckingham</span></li>
+                        <li><cite class="title">“Expect Resistance” + “Days of War, Nights of Love”</cite> <span class="author"><span class="visually-hidden">by </span>CrimethInc</span></li>
+                        <li><cite class="title">“Never Again: Rock Against Racism and the Anti-Nazi League 1976–1982”</cite> <span class="author"><span class="visually-hidden">by </span>David Renton</span></li>
+                        <li><cite class="title">“40 Ways to Fight Nazis: Forty Community-Based Actions You Can Take to Resist White Nationalist Organizing”</cite> <span class="author"><span class="visually-hidden">by </span>Spencer Sunshine</span></li>
+                    </ul>
+                </div>
+                <p>Reach out if you are interested in making a trade or if you have a title you want to contribute to the library by emailing us at <strong>designactivist at protonmail dot com</strong>. </p>
+            </section>
+            <section class="fade-in-bottom" id="about">
+                <h2>About</h2>
+                <p>Inspired by the revolutionary art and design collective models of the Medu Art Ensemble, Taller de Gráfica Popular, Atelier Populaire, Luther Blissett, Guerrilla Girls, the White Rose, Gran Fury and others, the Institute strives for cooperative design solutions both self-initiated and along with other activists. These groups were born out of specific flashpoints in history, creating art that signaled defiance against tyrannical rule, oppression, and autocracy. They each manifested the spirit of critical moments, and left behind a lasting visual legacy. The Institute aspires to uphold their ethics and deep and meaningful impact.</p>
+                <p>The Design Activist Institute brings multi-disciplinary designers together with writers, researchers, engineers, activists, students, and other experts, and are always looking to collaborate. Attend a workshop, link up with other creative thinkers and community organizers who are aiming to make a difference in the world by signing up on the <a href="#join">form above</a>. If you’re interested in getting involved, are a community organizer who wants to collaborate, or are looking for more information about our projects, feel free to email us at <strong>designactivist at protonmail dot com</strong>. </p>
+                <p>Our work is informed by our founding principle of mutual liberation:</p>
+                <figure>
+                    <blockquote>“If you have come to help me you are wasting your time, but if you have come because your liberation is bound up with mine, then let us work together.</blockquote>
+                    <figcaption>— Lilla Watson</figcaption>
+                </figure>
+            </section>
+            <section class="fade-in-bottom" id="workshops">
+                <h2>Workshops</h2>
+                <p>The Institute organizes periodic in-person workshops, mostly in Philadelphia. Be on the lookout for upcoming events here or on our instagram <a href="https://www.instagram.com/designactivistinstitute">@designactivistinstitute</a> for up-to-date information.</p>
+                <p>Our workshops are open both to our established collective as well as those who wish to attend only one or two, and participants can contribute to projects and discussions at any level.</p>
+            </section>
+            <section class="fade-in-bottom">
+                <h3>Past speaking engagements</h3>
+                <h4>Scout Interventions: Disrupt Conference</h4>
+                <time datetime="2021-04">April 2021</time>
+                <p>Members of the Design Activist Institute spoke at the Scout Interventions conference in a session about the Utopascope project, discussing our methods, process, and approach to remote collaboration on expansive subject matter. </p>
+                <h4>Tandem Conference</h4>
+                <time datetime="2019-10">October 2019</time>
+                <p>The Design Activist Institute spoke at the Tandem Conference on Collective Power and Utopian Design, leading participants through a critique of design thinking frameworks, an alternative strategy which combines democracy and community organizing, a discussion of collective power and utopian design covering an optimistic, progressive approach, and an interactive ideation exercise to discuss issues and discover workable, constructive outcomes.</p>
+                <h4>Design for Different Futures</h4>
+                <time datetime="2019-09">September 2019</time>
+                <p>Facilitators from the Institute led docents and curators from the Philadelphia Museum of Art in two training workshops for the Design for Different Futures exhibition. The first, an examination of different modes of utopian, creative thought about the future to prepare participants to engage in challenging conversations with the public about uncertain futures. The second, an interactive workshop on collective power, focused on labor organizing and helped participants navigate the Museum’s subsequent unionization efforts, which had yet to emerge at the time.</p>
+                <h4>Designing the View-Master</h4>
+                <time datetime="2019-03">March 2019</time>
+                <p>Allie DeCastro from the Design Activist Institute spoke at the Philadelphia Museum of Art on representation in design and the state of product design in a panel on Charles Harrison’s 1959 redesign of the View-Master and the ways in which we approach landscapes, people, and design today. Other panelists included Davic Hartt, Assistant Professor of Fine Arts at Penn Design, Kathleen A. Foster, the Robert L. McNeil, Jr., Senior Curator of American Art, and was moderated by Michelle Millar Fisher, The Lous C. Madeira IV Assistant Curator of European Devorative Arts.</p>
+                <h4>We the Women</h4>
+                <time datetime="2019-01">January 2019</time>
+                <p>Allie DeCastro from the Design Activist Institute participated in a panel discussion and closing reception at Kismet Manayunk with Morgan Plant, former Chair of Planned Parenthood PA Advocates, Andrea Ngan, co-facilitator of Design Justice Network in Philly, and Sara Atkins, Democratic candidate running in Pennsylvania’s 17th District, moderated by Maria Beatty, Kismet Community Manager.</p>
+                <h4>How Might Philly?</h4>
+                <time datetime="2018-10">October 2018</time>
+                <p>For the second year in a row, the Institute participated in DesignPhiladelphia, this time in a reception at Elixr for the How Might Philly? projection and web project, in which open-ended questions led to deeper explorations of constructive, real-world solutions.</p>
+                <h4>Storytelling and Art for a Better World</h4>
+                <p>In collaboration with Tell Me A Story</p>
+                <time datetime="2017-10">October 2017</time>
+                <p>As part of DesignPhiladelphia, Hillary Rea from Tell Me a Story led members of Design Activist Institute through a storytelling workshop, using personal narrative as a call to action for social and climate justice and sharing stories.</p>
+            </section>
+            <div class="gallery">
+                <div class="art">
+                    <img src="sources/images/Photo_1.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_4.webp" alt="Design Activist Institute Design for Different Futures workshop" loading="lazy">
+                    <img src="sources/images/Photo_7.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_10.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_13.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_16.webp" alt="Design Activist Institute Rising Tide Philly workshop" loading="lazy">
+                </div>
+                <div class="art">
+                    <img src="sources/images/Photo_2.webp" alt="Design Activist Institute panel event" loading="lazy">
+                    <img src="sources/images/Photo_5.webp" alt="Design Activist Institute How Might Philly projection" loading="lazy">
+                    <img src="sources/images/Photo_8.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_11.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_14.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_17.webp" alt="Design Activist Institute workshop" loading="lazy">
+                </div>
+                <div class="art">
+                    <img src="sources/images/Photo_3.webp" alt="Design Activist Institute Post-It note planning" loading="lazy">
+                    <img src="sources/images/Photo_6.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_9.webp" alt="Design Activist Institute workshop" loading="lazy">
+                    <img src="sources/images/Photo_12.webp" alt="Design Activist Institute Post-It note planning" loading="lazy">
+                    <img src="sources/images/Photo_15.webp" alt="Design Activist Institute mockumentary film" loading="lazy">
+                    <img src="sources/images/Photo_18.webp" alt="Design Activist Institute How Might Philly projection" loading="lazy">
+                </div>
+            </div>
+            <section class="fade-in-bottom">
+                <h3>Past workshops</h3>
+                <p>In previous years, the Design Activist Institute spent summers squatting in the emptied-out University of the Arts graphic design labs, organizing workshops on <strong>anti-racist design</strong>, <strong>free schools</strong>, <strong>climate justice interventions</strong>, <strong>analog cryptography</strong>, <strong>détournement</strong>, <strong>free and open source design tools</strong>, <strong>antifascist design</strong>, <strong>alternate futures</strong>, <strong>site-specific projections and community collaboration</strong>, <strong>information insurgency</strong>, <strong>mockumentary production</strong>, <strong>guerrilla posters</strong>, and much more.
+            </section>
+            <section class="fade-in-bottom" id="contact">
+                <h2>Contact</h2>
+                <p>If you’re interested in learning any more about any of the Institute’s research, workshop subjects, or ongoing projects, contact <strong>designactivist at protonmail dot com</strong>.</p>
+                <p>Sign up for the Design Activist Institute or inquire about having us host a workshop.</p>
+                <div class="button-wrapper">
+                    <a class="primary-button" href="#join">Join us</a>
+                </div>
+                <p><small>© 2016-2026 Design Activist Institute </small></p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#workshops">workshops</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="https://www.instagram.com/designactivistinstitute" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
