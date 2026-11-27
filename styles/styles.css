@@ -720,11 +720,11 @@ form input::placeholder, form textarea::placeholder {
 /* Mobile */
 @media only screen and (max-width: 767px) {
 	main { padding: 0 5rem 0 2rem; }	
-	header { padding: 30vh 5rem 3rem 2rem; min-height: auto; }
+	header { padding: 30vh 2rem 3rem 2rem; min-height: auto; }
 	article { padding: 2rem 0; }
 	h2 { font-size: 2.75rem; }
 	form input, form textarea { width: 75%; }
-	footer { padding: 1rem 2rem; }
+	footer { padding: 1rem; }
 	blockquote, .intro { font-size: 1.5rem; }
 	blockquote:first-letter { margin-left: -.5rem; }
 	nav ul li { margin: 0 1rem 0 0; }
